@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
             btnIntro.classList.remove('selected');
             selected = null;
         } else {
-            loadPDF('https://solicare.kro.kr/pdf/project-intro.pdf');
+            loadPDF('https://www.solicare.kro.kr/pdf/project-intro.pdf');
             showPdf();
             // 발표자료는 위쪽 컨트롤 숨김
             pdfControlsTop.style.display = 'none';
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
             btnPoster.classList.remove('selected');
             selected = null;
         } else {
-            loadPDF('https://solicare.kro.kr/pdf/project-poster.pdf');
+            loadPDF('https://www.solicare.kro.kr/pdf/project-poster.pdf');
             showPdf();
             // 포스터는 위쪽 컨트롤 보임 (긴 PDF이므로)
             pdfControlsTop.style.display = 'flex';
